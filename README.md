@@ -22,8 +22,7 @@ https://github.com/thisbejim/Pyrebase
 
 # Script signature:
 ```
-$firebase_crud.py --collection <string> --key <string> --action create --url <url-string>
-$firebase_crud.py --collection <string> --key <string> --action read
-$firebase_crud.py --collection <string> --key <string> --action update --url <url-string>
+$firebase_crud.py --collection <string> --key <string> --action get
+$firebase_crud.py --collection <string> --key <string> --action set --url <url-string>
 $firebase_crud.py --collection <string> --key <string> --action delete
 ```
