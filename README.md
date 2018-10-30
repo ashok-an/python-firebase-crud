@@ -1,5 +1,5 @@
 # python-firebase-crud
-Experimenting CRUD operations to firebase with python
+Experimenting CRUD operations to firebase realtime DB with python
 
 # Assumptions: 
 * Firebase data-store has structure like `/<collection-name>/<key>/<data>`
@@ -21,7 +21,9 @@ https://github.com/thisbejim/Pyrebase
 
 
 # Script signature:
-`$firebase_crud.py --collection <string> --key <string> --action create --url <url-string>`
-`$firebase_crud.py --collection <string> --key <string> --action read`
-`$firebase_crud.py --collection <string> --key <string> --action update --url <url-string>`
-`$firebase_crud.py --collection <string> --key <string> --action delete`
+```
+$firebase_crud.py --collection <string> --key <string> --action create --url <url-string>
+$firebase_crud.py --collection <string> --key <string> --action read
+$firebase_crud.py --collection <string> --key <string> --action update --url <url-string>
+$firebase_crud.py --collection <string> --key <string> --action delete
+```
